@@ -30,14 +30,14 @@ document.addEventListener('visibilitychange',
     });
 
 
-// fetch projects start
-// function getProjects() {
-//     return fetch("projects.json")
-//         .then(response => response.json())
-//         .then(data => {
-//             return data
-//         });
-// }
+fetch projects start
+function getProjects() {
+    return fetch("projects.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
 
 
 function showProjects(projects) {
